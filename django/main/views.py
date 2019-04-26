@@ -5,7 +5,7 @@ from .models import Area
 
 
 def tuple2list(ctuple):
-    return list((tuple2list(elt) if isinstance(elt, tuple) else elt for elt in ctuple))
+    return [tuple2list(elt) if type(elt) == tuple else elt for elt in ctuple]
 
 
 class HomeView(TemplateView):
