@@ -15,3 +15,7 @@ Then move to the 'django' folder and run the server.
 #### F.e. `./manage.py load_areas` loads all the areas from the default file
 
 #### You may also use `--path` argument to set the path to your custom `.kml` file
+
+---
+
+![Screenshot1](readme_screenshots/screenshot1.png)
